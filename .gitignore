@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Secrets: keep the template, never commit real values.
+.env
+.env.*
+!.env.example
+
+# Generated runtime data and local databases.
+data/
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
